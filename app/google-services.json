@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "268728773364",
+    "firebase_url": "https://mybankbnelab.firebaseio.com",
+    "project_id": "mybankbnelab",
+    "storage_bucket": "mybankbnelab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268728773364:android:b8211993838f96d8",
+        "android_client_info": {
+          "package_name": "com.rsasedemo.mybank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "268728773364-mefm97ll13motuir92mt98ue70hnlgjp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7H5XJ8Jz0LnEMqtnkexk2EQ1yIuN4N8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "268728773364-mefm97ll13motuir92mt98ue70hnlgjp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

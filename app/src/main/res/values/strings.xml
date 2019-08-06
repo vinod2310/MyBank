@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Bank</string>
+    <string name="app_description">Next Gen Authentication for Financial Services</string>
+    <string name="app_waiting">Waiting for notification...</string>
+    <string name="app_slide_left">Slide left for OTP</string>
+    <string name="default_notification_channel_id">Channel ID</string>
+    <string name="fcm_message">You are being notifiedID</string>
+    <string name="msg_token_fmt">DeviceRegCode:%s</string>
+    <string name="channel_name">DeviceRegCode:%s</string>
+    <string name="channel_description">DeviceRegCode:%s</string>
+    <string name="storeTokenUrl">http://localhost:8080/doStore</string>
+
+
+</resources>
