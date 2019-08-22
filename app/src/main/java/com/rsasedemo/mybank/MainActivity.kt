@@ -5,24 +5,16 @@ import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.content.Intent
 import android.os.Build
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.GestureDetector
 import android.view.MotionEvent
-import android.view.View
 import android.widget.Toast
 import androidx.core.view.GestureDetectorCompat
 import com.google.android.gms.tasks.OnCompleteListener
 import com.google.firebase.iid.FirebaseInstanceId
-import androidx.core.app.NotificationCompat
 import com.google.firebase.messaging.FirebaseMessaging
 import com.google.firebase.messaging.RemoteMessage
-import java.io.DataOutputStream
-import java.io.IOException
-import java.net.HttpURLConnection
-import java.net.MalformedURLException
-import java.net.URL
 import kotlin.random.Random
 
 
@@ -51,7 +43,7 @@ class MainActivity :
 
     private lateinit var mDetector: GestureDetectorCompat
 
-    fun sendToServer(token: String?) {
+    private fun sendToServer(token: String?) {
 
             val fm = FirebaseMessaging.getInstance()
             val map = mapOf("token" to  token)

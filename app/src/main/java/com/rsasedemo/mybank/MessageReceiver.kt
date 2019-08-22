@@ -2,17 +2,12 @@ package com.rsasedemo.mybank
 
 
 import android.app.*
-import android.content.Context
 import android.content.Intent
-import android.media.RingtoneManager
-import android.os.Build
 import androidx.core.app.NotificationCompat
 import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
 
 import android.util.Log
-import android.widget.EditText
-import com.rsasedemo.mybank.MainActivity.Companion.PUSH_MESSAGE
 import com.rsasedemo.mybank.MainActivity.Companion.PUSH_MESSAGE_AMOUNT
 import com.rsasedemo.mybank.MainActivity.Companion.PUSH_MESSAGE_FROMACCOUNT
 import com.rsasedemo.mybank.MainActivity.Companion.PUSH_MESSAGE_TOACCOUNT
@@ -21,10 +16,6 @@ import java.io.IOException
 import java.net.HttpURLConnection
 import java.net.MalformedURLException
 import java.net.URL
-
-/**
- * Created by What's That Lambda on 11/6/17.
- */
 
 class MessageReceiver : FirebaseMessagingService() {
     var TAG = "MessageReceiver"
